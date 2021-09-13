@@ -26,9 +26,10 @@ const showProducts = (products) => {
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star-half-alt fa-star"></i>
-      <small>(${product.rating.count})</small>
+      <small><i class="fas fa-user"></i>${product.rating.count}</small>
       </p>
-      <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">Add to cart</button>
+
+<button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-dark">Add to cart <i class="fas fa-shopping-cart"></i></button>
       <button id="details-btn" class="btn btn-danger">Details</button></div>
       `;
     document.getElementById("all-products").appendChild(div);
