@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fake</title>
   <link rel="stylesheet" href="./css/style.css" />
+  
   <!-- Font Awesome icon -->
   <script src="https://kit.fontawesome.com/5499c1b3f2.js" crossorigin="anonymous"></script> 
   
@@ -19,9 +20,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 
-<body>
+<body style="background-color: rgba(86, 159, 253, 0.123);">
   <header></header>
   <main class="main">
+    <!--______ Search Area ____ -->
+
     <div class="search-field">
       <div class="search-box">
         <input id="input-field" class="search-field input-box" type="text" placeholder="Search Product" />
@@ -29,7 +32,9 @@
           Search
         </button>
       </div>
+
     </div>
+    <!-- Product detalis Area  -->
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
@@ -38,6 +43,8 @@
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
         <div class="cart" id="my-cart">
           <table class="table">
+
+            <!-- price cart Area  -->
             <thead>
               <h1>My-Cart</h1>
               <tr>
@@ -79,6 +86,7 @@
               </tr>
             </tbody>
           </table>
+          <!-- buy button  -->
           <div class="parces text-center">
             <button class="btn btn-primary text-center">Buy Now</button>
           </div>
