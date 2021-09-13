@@ -1,4 +1,5 @@
 body {
+  
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
@@ -47,6 +48,18 @@ body {
 .product-image {
   width: 150px;
   height: 150px;
+  
+  
+}
+.rate{
+  color: #dd8a24;
+
+}
+.fa-star{
+  color:  #d4ac3d;
+}
+span{
+  color:gray;
 }
 .cart {
   width: 350px;
